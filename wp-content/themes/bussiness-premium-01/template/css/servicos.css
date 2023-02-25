@@ -1,0 +1,177 @@
+
+.wq-servicos_01{
+	padding: 90px 0 80px;
+	background-color: #726daf
+}
+
+.wq-servicos_01 .wq-titulo_1{
+	margin-bottom: 20px;
+	color: #fff;
+}
+.wq-servicos_01 p{
+	margin: 0 auto 70px;
+	color: #e1e1e1;
+	width: 600px;
+	max-width: 100%;
+}
+
+.wq-servicos_btns{
+	margin-bottom: 75px;
+}
+.wq-servicos_btns li{
+	margin-right: 17px;
+}
+.wq-servicos_btns li:last-child{
+	margin-right: 0px;
+}
+.wq-servicos_btns li a{
+	display: block;
+	line-height: 37px;
+	padding: 0 38px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	font-size: 13px;
+	color: #fff;
+}
+.wq-servicos_btns li a:hover,
+.wq-servicos_btns li a.active{
+	color: #ffc20e;
+	border-color: #ffc20e;
+}
+
+.wq-servicos_01 .wq-box_4{
+	margin-bottom: 40px;
+	max-width: 352px;
+}
+
+/* Servico-interna_01 */
+
+.wq-servico-interna_01{
+	padding: 90px 0 120px;
+}
+.wq-servico-interna_01 .wq-box_8,
+.wq-servico-interna_01 .wq-box_4{
+	margin-bottom: 20px;
+}
+.wq-servico-interna_01 .wq-box_8 > div{
+	margin-right: 35px;
+}
+
+.wq-servico-interna_01 .wq-box_8 h2{
+	color: #3e88b3;
+	font-size: 25px;
+	margin: 12px 0 20px;
+}
+.wq-servico-interna_01 .wq-box_8 p:first-child{
+	margin-bottom: 0px;
+}
+.wq-servico-interna_01 .wq-box_8 p{
+	margin-bottom: 20px;
+	line-height: 18px;
+}
+.wq-inscricao_box figure{
+	position: relative;
+}
+.wq-inscricao_box figure:after,
+.wq-inscricao_box figcaption{
+	position: absolute;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+}
+.wq-inscricao_box figure:after{
+	display: block;
+	content: '';
+	mix-blend-mode: color;
+	filter: brightness(1);
+	background: linear-gradient( 131deg, #6cbd97, #2981c4);
+}
+
+.wq-inscricao_box figure img{
+	position: relative;
+	display: block;
+	width: 100%;
+	filter: grayscale(1)brightness(.3);
+}
+
+.wq-inscricao_box figcaption{
+	z-index: 3;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 45px;
+	width: calc(100% - 90px);
+}
+
+.wq-inscricao_box figcaption h3{
+	font-size: 25px;
+}
+.wq-inscricao_box figcaption h3:after{
+	content: '';
+	display: block;
+	width: 29px;
+	height: 5px;
+	border-radius: 2px;
+	margin: 8px auto 0px;
+	background-color: #ffc20e;
+}
+.wq-inscricao_box form{
+	padding: 35px 22px;
+	background-color: #3a375b;
+}
+.wq-inscricao_box form input{
+	width: calc(100% - 50px);
+	padding: 0 25px;
+	line-height: 55px;
+	border: 0px;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	color: #3a375b;
+}
+
+.wq-servico-interna_info{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 32px;
+	border: 2px solid #3a375b;
+}
+
+.wq-servico-interna_info p{
+	font-size: 13.2px;
+}
+.wq-servico-interna_info h3{
+	font-size: 26px;
+	color: #ec6822;
+}
+.wq-servico-interna_info div{
+	margin-right: 27px;
+}
+.wq-servico-interna_info div:last-child{
+	margin-right: 0px;
+}
+
+/* Servico-interna_01 */
+
+
+
+
+.wq-new-formulario form input,
+.wq-new-formulario form select,
+.wq-inscricao_box form select{
+	width: calc(100% - 50px);
+    padding: 0 25px;
+    line-height: 55px;
+    border: 0px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    color: #3a375b;
+}
+
+.wq-new-formulario form select,
+.wq-inscricao_box form select{
+	width: 100%;
+	height: 50px;
+}

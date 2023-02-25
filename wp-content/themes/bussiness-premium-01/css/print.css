@@ -1,0 +1,7 @@
+@media print{
+
+	.wq-banner_pagina img,.wq-blog_01 + .wq-05,.wq-06,.wq-footer_top,.wq-midias-sociais{display: none !important;}
+
+	.wq-blog_01 .wq-box_8{width: 100% !important;}
+
+}

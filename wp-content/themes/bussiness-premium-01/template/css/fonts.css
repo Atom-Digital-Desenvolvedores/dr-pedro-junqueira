@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'PFBeauSansPro-Regular';
+	src: url(../fonts/PFBeauSansPro-Regular.ttf);
+}
+@font-face {
+	font-family: 'PFBeauSansPro-Bold';
+	src: url(../fonts/PFBeauSansPro-Bold.ttf);
+}
+@font-face {
+	font-family: 'PFBeauSansPro-Black';
+	src: url(../fonts/PFBeauSansPro-Black.ttf);
+}
+@font-face {
+	font-family: 'PFBeauSansPro-Light';
+	src: url(../fonts/PFBeauSansPro-Light.ttf);
+}

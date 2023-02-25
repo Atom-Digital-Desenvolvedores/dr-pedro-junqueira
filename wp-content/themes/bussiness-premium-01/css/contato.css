@@ -1,0 +1,99 @@
+
+.wq-contato_01{
+	padding: 70px 0;
+	background-color: #f4f4f4;
+}
+
+.wq-mensagem{
+	padding: 50px 40px;
+	background-color: #252525;
+	color: #fff;
+}
+
+.wq-mensagem input,
+.wq-mensagem textarea{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	border-radius: 4px;
+	width: calc(100% - 44px);
+	font-size: 12px;
+	background-color: #ececec;
+	padding: 18px 22px;
+	margin: 10px 0 35px;
+	color: #666;
+}
+.wq-mensagem input::placeholder,
+.wq-mensagem textarea::placeholder{
+	color: #999999;
+}
+
+.wq-contato_01 textarea{
+	height: 120px;
+}
+
+.wq-mensagem h3{
+	font-size: 18px;
+	margin-bottom: 25px;
+}
+.wq-mensagem p{
+	font-size: 12px;
+}
+
+.wq-contato_box{
+	padding: 60px 40px;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	background-color: #fff;
+	justify-content: space-between;
+}
+
+.wq-contato_box .wq-contato li{
+	margin-right: 12px;
+	margin-bottom: 12px;
+}
+.wq-contato_box .wq-contato a{
+	margin-right: 0;
+}
+.wq-contato_box .wq-contato span{
+	margin-right: 5px;
+}
+
+.wq-contato_box .wq-contato address{
+	color: #142036;
+	font-size: 16px;
+	margin: 0;
+}
+.wq-contato_box .wq-midias-sociais li a{
+	line-height: 32px;
+	height: 32px;
+	width: 32px;
+	background-color: #5980be;
+	color: #fff;
+	font-size: 16px;
+}
+.wq-contato_box .wq-midias-sociais li a:hover{
+	background-color: #203260;
+	color: #fff;
+}
+
+.wq-destaque {
+    color: #203260;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.wq-contato_01 h4,
+.wq-contato_01 h3,
+.wq-contato_01 h2 {
+    color: #203260;
+    text-transform: uppercase;
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 18px;
+}
